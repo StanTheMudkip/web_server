@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+ Name: Stanley Hale
+ Email: halesta@oregonstate.edu
+ Class: CS290
+ Assignment : 1
+ Due: 11:59pm on 4/25/2022
+  -->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Stanley Hale">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>HOMEPAGE - CS290</title>
+
+    <script src="script.js" defer></script>
+
+  </head>
+
+  <body>
+    <!-- Your page content goes here. -->
+    <h1> About Me... - HOMEPAGE </h1>
+
+    <ul>
+      <li> <strong>Name:</strong> Stanley Hale </li>
+      <li> <strong>Email:</strong> halesta@oregonstate.edu </li>
+      <li class="special"> <strong>Major:</strong> CS Applied </li>
+      <li> <strong>Year:</strong> Sophmore </li>
+
+
+      <ol>
+        <li>  I've had little to no experience with web development. </li>
+        <li>  I hope to learn how to create browser based applications in a professional manner
+          and be able to bring these experiences into parts of my career. </li>
+        <li>  I did sign up for this course's Campuswire forum. </li>
+        <li>  An interesting thing about me is that I showed a champion show dog when I was younger. </li>
+      </ol>
+
+
+      <!-- Photo of Myself  -->
+      <img src="Me.jpg" alt="Picture of Stanley Hale in Non-Goblin form"/>
+
+      <footer>
+        <!-- Footer and js testing area -->
+        <hr/>
+        <h3> Blog Hyper Link: <span> <a href="blog.html">My Blog </a> </span> </h3>
+        <br/>
+
+        <!-- JS testing stuff-->
+        <button onClick="secret_funny()">Click me :)</button>
+
+        <div>
+          <br/>
+          <img src="elmo.gif" id="secret1" class="hidden">
+          <!-- Image was from: https://media1.tenor.com/images/dbf3179336e8845a47b2f61a985ffb85/tenor.gif?itemid=17305554 -->
+        </div>
+
+        <script>
+
+          function secret_funny() {
+            document.getElementById("secret1").style.display = 'block';
+            console.log("This will be printed to the console.");
+          }
+
+        </script>
+
+      </footer>
+    </ul>
+
+  </body>
+</html>
