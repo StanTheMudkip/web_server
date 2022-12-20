@@ -49,6 +49,8 @@ a {
   border: 1px solid #dadada;
   padding: 5px;
   margin-right: 15px;
+  max-width: 192px;
+  max-height: 192px;
 }
 
 .profile-card > p {
