@@ -2,66 +2,141 @@
 
 
 <html>
+
+
   <head>
+    <title>About me - nonetwork</title>
     <meta charset="utf-8">
     <meta name="author" content="Stanley Hale">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
-    <title>HOMEPAGE</title>
 
-    <script src="script.js" defer></script>
+    <script src="index.js" defer></script>
+
+    <!-- This 3rd-party stylesheet incorporates SVG icons from font awesome : https://fontawesome.com -->
+    <script src="https://kit.fontawesome.com/ea217ad376.js" crossorigin="anonymous"></script>
 
   </head>
 
+
+
+
   <body>
-    <!-- Your page content goes here. -->
-    <h1> About Me... - HOMEPAGE </h1>
+    <header>
+      <a href="#"><h1 class="site-title">  <i class="fa-solid fa-ethernet"></i> Nonetwork </h1> </a>
+
+      <nav class="navbar">
+        <ul class="navlist">
+          <li class="navitem navlink active"><a href="#">About Me</a></li>
+          <li class="navitem navlink"><a href="#">Personal Projects</a></li>
+          <li class="navitem navlink"><a href="#">Friendventure</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
 
     <ul>
-      <li> <strong>Name:</strong> Stanley Hale </li>
-      <li> <strong>Email:</strong> halesta@oregonstate.edu </li>
-      <li class="special"> <strong>Major:</strong> CS Applied </li>
-      <li> <strong>Year:</strong> Sophmore </li>
 
 
-      <ol>
-        <li>  I've had little to no experience with web development. </li>
-        <li>  I hope to learn how to create browser based applications in a professional manner
-          and be able to bring these experiences into parts of my career. </li>
-        <li>  I did sign up for this course's Campuswire forum. </li>
-        <li>  An interesting thing about me is that I showed a champion show dog when I was younger. </li>
-      </ol>
-
-
-      <!-- Photo of Myself  -->
-      <img src="Me.jpg" alt="Picture of Stanley Hale in Non-Goblin form"/>
-
-      <footer>
-        <!-- Footer and js testing area -->
-        <hr/>
-        <h3> Blog Hyper Link: <span> <a href="./blog.html">My Blog </a> </span> </h3>
-        <br/>
-
-        <!-- JS testing stuff-->
-        <button onClick="secret_funny()">Click me :)</button>
-
-        <div>
-          <br/>
-          <img src="./elmo.gif" id="secret1" class="hidden">
-          <!-- Image was from: https://media1.tenor.com/images/dbf3179336e8845a47b2f61a985ffb85/tenor.gif?itemid=17305554 -->
+      <div class="profile-card">
+        <!-- Photo of Myself  -->
+        <img class="pfp" src="Me.jpg" alt="Picture of Stanley Hale in Non-Goblin form"/>
+        <div class="pf-info">
+          <p> <strong>Name:</strong> Stanley Hale </p>
+          <p> <strong>Email:</strong> halesta@oregonstate.edu </p>
+          <p> <strong>Github:</strong> <span> <a href="https://github.com/StanTheMudkip"> Profile </a> </span>  </p>
+          <p> <strong>Major:</strong> CS Applied - Simulation and Game </p>
+          <p> <strong>Year:</strong> Junior </p>
         </div>
+      </div>
 
-        <script>
+      <div class="category">
+        <h2>Experiences</h2>
+        <ul>
 
-          function secret_funny() {
-            document.getElementById("secret1").style.display = 'block';
-            console.log("This will be printed to the console.");
-          }
+          <p> <div> 2021 - Present </div>
+            <strong>OSU College Of Engineering – IT Technician</strong>
+            Work with computer management systems, networking tools such as Active directory, SCCM, Jitbit, etc.
+            Support grad students and faculty in COE with physical equipment and software such as building machines and managing them.
+            Help train others in the IT Technician position.
+            Trained and have worked in lab environments when needed.
+          </p>
 
-        </script>
+        </ul>
+      </div>
 
-      </footer>
+      <div class="category">
+        <h2>Other Experiences</h2>
+        <ul>
+
+          <p> <div>2019 - 2020</div>
+            <strong>Robotics Club</strong>
+            Designed and assembled VEX robots while coordinating with others.
+            Programmed robots int VEX code to conduct specific tasks.
+            Worked and collaborated with small and large teams of people.
+          </p>
+
+          <p> <div>2018 - 2019</div>
+            <strong>Next Step Recyling</strong>
+      			Volunteered at next step recycpng, an organization focused on the reuse
+            and proper disposal of computer parts.
+            Dismantled and reassembled old computers for reuse.
+            Recycled materials that could no longer be used.
+          </p>
+
+
+          <p> <div>2013 - 2019</div>
+            <strong>Boy Scouts of America</strong>
+            Taught younger scouts lessons for merit badge requirements.
+            Learned hands on leadership and quartermaster skills.
+            Learned many outdoor/survival and communication skills.
+          </p>
+
+          <p> <div>2012 - 2014</div>
+            <strong>Food For Lane County</strong>
+      			Arranged meals for homeless and low-income people.
+            Assembled meal kits to be distributed in homeless communities.
+            Learned and practiced good sanitary procedures and conditions.
+          </p>
+
+        </ul>
+      </div>
+
+      <div class="category">
+        <h2>Hobbies</h2>
+        <ul>
+
+          <p> I was gifted an old server and installed proxmox and host my own vm's.
+            I use it to run several game servers and try to get some more experience with linux.
+          </p>
+
+          <p>
+            I have slowly been learning unity and c# for fun and experimenty with little projects.
+            Such as a visual novel and a simple platformer.
+            I would like to try and make my own FPS controller to try and replicate modern games.
+          </p>
+
+
+          <p>
+            I have also been learning how to develop mobile applications with flutter,
+            which I have had some experience with through my software engineering project.
+            The project was to develope a hiking application for sharing hikes.
+            I am also interested in learning react for mobile development.
+          </p>
+
+          <p>
+            I enjoy playing video games such as minecraft, rainbow six siege, battlefield, and many more!
+            I have also gotten into modding minecraft and am developing a potion/alchemy mod with  the
+            forge mod development kit.
+          </p>
+
+        </ul>
+      </div>
+
+
     </ul>
 
   </body>
+
 </html>
