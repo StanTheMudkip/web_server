@@ -21,6 +21,30 @@ a {
  border-radius: 2px;
 }
 
+.pf-info > p > strong {
+  font-size: 20px;
+}
+
+#pf-name {
+  margin-right: 11px;
+}
+
+#pf-email {
+  margin-right: 15px;
+}
+
+#pf-github {
+  margin-right: 7px;
+}
+
+#pf-major {
+  margin-right: 13px;
+}
+
+#pf-year {
+  margin-right: 25px;
+}
+
 .pfp {
   border: 1px solid #dadada;
   padding: 5px;
@@ -50,7 +74,7 @@ a {
 }
 
 .cat-title {
-  
+
 }
 
 
