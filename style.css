@@ -8,6 +8,11 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  min-width: 130px;
+  width: 130px;
+}
+
 .profile-card {
  display: flex;
 
@@ -68,15 +73,41 @@ a {
   border: 1px solid #dadada;
   background-color: white;
 
-  flex-direction: column;
+  /*flex-direction: column;*/
   margin-right: 40px;
 
   padding: 20px;
   border-radius: 2px;
 }
 
-.cat-title {
+.cat-entry {
 
+}
+
+.cat-entry > p{
+  text-align: left;
+  max-width: 50vw;
+  text-indent: 30px;
+}
+
+.cat-title {
+  flex-wrap: nowrap;
+}
+
+.cat-date {
+  display: inline-block;
+  width: 110px;
+}
+
+.cat-subject {
+  display: inline-block;
+  margin-left: 2vw;
+}
+
+.hobby{
+  text-align: left;
+  max-width: 50vw;
+  text-indent: 30px;
 }
 
 
