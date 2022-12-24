@@ -4,10 +4,6 @@ body {
   background-color: #eee;
 }
 
-a {
-  text-decoration: none;
-}
-
 h2 {
   min-width: 130px;
   width: 130px;
@@ -137,12 +133,19 @@ h2 {
 }
 
 a {
+  text-decoration: none;
   color: #343434;
+}
+
+.link {
+  /*font-style: italic;*/
+  color: #8755CC;
+  text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-  color: #8755CC;
+  color: #A87DE2;
 }
 
 a:focus {
