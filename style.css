@@ -52,7 +52,7 @@ h2 {
   margin-right: 15px;
   max-width: 192px;
   max-height: 192px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.2);
   transform-style: preserve-3d;
 }
 
