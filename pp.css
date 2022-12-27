@@ -1,0 +1,176 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #eee;
+}
+
+h2 {
+  min-width: 130px;
+  width: 130px;
+}
+
+.profile-card {
+ display: flex;
+
+ border: 1px solid #dadada;
+ background-color: white;
+
+ min-width: 525px;
+ margin-right: 40px;
+
+ padding: 20px;
+ border-radius: 2px;
+ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pf-info > p > strong {
+  font-size: 20px;
+}
+
+#pf-name {
+  margin-right: 11px;
+}
+
+#pf-email {
+  margin-right: 15px;
+}
+
+#pf-github {
+  margin-right: 7px;
+}
+
+#pf-major {
+  margin-right: 13px;
+}
+
+#pf-year {
+  margin-right: 25px;
+}
+
+.pfp {
+  border: 1px solid #dadada;
+  padding: 5px;
+  /*margin-right: 15px;*/
+  max-width: 192px;
+  max-height: 192px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transform-style: preserve-3d;
+}
+
+.pf-information {
+  /*margin-bottom: 15px;*/
+  margin-left: 15px;
+}
+
+.pf-info {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.category {
+  display: flex;
+
+  border: 1px solid #dadada;
+  background-color: white;
+
+  margin-right: 40px;
+
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.cat-entry {
+
+}
+
+.cat-entry > p{
+  text-align: left;
+  max-width: 50vw;
+  text-indent: 30px;
+}
+
+.cat-title {
+  flex-wrap: nowrap;
+}
+
+.cat-date {
+  display: inline-block;
+  width: 110px;
+}
+
+.cat-subject {
+  display: inline-block;
+  margin-left: 2vw;
+}
+
+.hobby{
+  text-align: left;
+  max-width: 50vw;
+  text-indent: 30px;
+}
+
+
+
+
+.site-title {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: #8755CC;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.navlist {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.navitem {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #343434;
+}
+
+.link {
+  /*font-style: italic;*/
+  color: #8755CC;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: #A87DE2;
+}
+
+a:focus {
+  outline: none;
+}
+
+.navlink a {
+  padding: 8px 10px;
+  display: inline-block;
+}
+
+.navlink.active {
+  box-shadow: inset 0 -3px #8755CC;
+}
+
+
+.bi.bi-wifi-off {
+  font-size: 40px;
+}
+
+.hidden {
+  display: none;
+}
