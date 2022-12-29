@@ -81,6 +81,47 @@ h2 {
   margin-top: 10px;
 }
 
+.caption {
+  text-indent: 0px;
+  margin: 0px;
+  margin-top: 5px;
+
+  font-size: 18px;
+
+  font-style: italic;
+}
+
+.snapshots {
+  margin-top: 0px;
+
+  align-self: center;
+
+  min-height: 150px;
+  width: 700px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.snapshots > img {
+  margin: 5px;
+  padding: 2px;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0px 0px 2px rgba(0, 0, 0, 0.2);
+
+
+  min-width: 100px;
+  min-height: 100px;
+
+  max-width: 150px;
+  max-height: 150px;
+}
+
 
 
 
