@@ -37,8 +37,11 @@ h2 {
 }
 
 #smallsh > img {
-  width: 100px;
-  height: 100px;
+     max-width: 60vw;
+     max-height: 60vh;
+     padding: 2px;
+     border: 1px solid #dadada;
+     margin-top: 10px;
 }
 
 #smallsh > p {
